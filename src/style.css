@@ -31,8 +31,15 @@ header{
   background-color: rgb(15, 24, 26);
 }
 .header_name{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   margin-top: 40px;
+}
+.name_h1{
+  margin-left: 20px;
 }
 .card{
   position: relative;
